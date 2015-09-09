@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.timesprint:hasher_2.10:0.3.0" type="repository">
+    <properties maven-id="com.timesprint:hasher_2.10:0.3.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hasher_2.10-0.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-library-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
