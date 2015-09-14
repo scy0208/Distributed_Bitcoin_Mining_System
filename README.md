@@ -55,10 +55,15 @@ Experiment of one client node execute the program to find bitcoin with 4 zero, A
 The client is a 2 core 4 thread CPU with the frequency of 2.53GHz, operating system is Ubunto 14.04, Memory size is 5863MB.
 
 The unit of time is second.
-｜num of actor	｜real time	｜user time	｜sys time	｜num of bitcoin ｜Bitcoins/real time｜	CPU time/ real time｜
-｜1             ｜	38.417	｜11.084    ｜	0.495	  ｜0	             ｜ 0                ｜  	0.301403025      ｜
-2	38.758	11.314	0.402	0	0	0.30228598
-3	38.382	11.152	0.43	0	0	0.301756031
+
+  | Title   | Description                        |
+  | :------ | :--------------------------------: |
+  | Version | 0.0.1                              |
+  | Editor  | [Melo618](mailto:Editor@Email.com) |
+|num of actor|real time|user time|sys time|num of bitcoin|Bitcoins/real time|CPU time/ real time|
+|1           |	38.417 |11.084   |	0.495 |0	           |0                 |  	0.301403025     |
+|2|	38.758	|11.314|	0.402	|0|	0	|0.30228598|
+|3|	38.382	|11.152|	0.43	|0|	0 |0.301756031|
 4	38.428	11.142	0.513	0	0	0.303294473
 5	49.055	83.406	1.013	21	0.428090918	1.720905107
 6	44.272	76.166	1.205	11	0.24846404	1.747628298
