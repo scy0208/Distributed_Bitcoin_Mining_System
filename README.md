@@ -55,11 +55,7 @@ Experiment of one client node execute the program to find bitcoin with 4 zero, A
 The client is a 2 core 4 thread CPU with the frequency of 2.53GHz, operating system is Ubunto 14.04, Memory size is 5863MB.
 
 The unit of time is second.
-
-  | Title   | Description                        |
-  | :------ | :--------------------------------: |
-  | Version | 0.0.1                              |
-  | Editor  | [Melo618](mailto:Editor@Email.com) |
+```
 |num of actor|real time|user time|sys time|num of bitcoin|Bitcoins/real time|CPU time/ real time|
 |1           |	38.417 |11.084   |	0.495 |0	           |0                 |  	0.301403025     |
 |2|	38.758	|11.314|	0.402	|0|	0	|0.30228598|
@@ -74,7 +70,7 @@ The unit of time is second.
 11	194.32	367.599	4.023	44	0.22643063	1.912422808
 12	304.574	583.276	5.033	54	0.177296815	1.931579846
 13	194.144	368.039	3.468	29	0.149373661	1.913564159
-
+```
 From the experiment data we can see that when the actor number is 5, the system satisfied with highest speed of bitcoin mining, when the actor number is 12, the CPU utilize rate is highest, which means the parallel performance is the best.
 
 ##The Bitcoin with most zero
