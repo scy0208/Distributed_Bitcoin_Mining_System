@@ -2,11 +2,11 @@
 This is an distributed Bitcoin mining system based on Akka
 
 
-How to run
+## How to run
 
 The bitcoin mining system consists of two part: the server part and the client part. On the server machine, we can open the folder of Server and typing in Terminal :
 
- sbt “run  <gator_id > <number of zero>”
+>>> sbt “run <gator_id > <number of zero>”
 
 Then we can get the information of server, especially the ip address of server which we need to use on client machine.
 
@@ -15,15 +15,15 @@ In this example we can see that the IP address of server is 192.168.0.101
 On the client machine, we can open the folder of Client and typing in Terminal :
 If we need the client to execute in a certain duration time : 
 
- run <server IP> <server port> <num of actor > <sec of duration>
+>>> run <server IP> <server port> <num of actor > <sec of duration>
 
 If we need the client to execute without an end:
 
- run <server IP> <server port> <num of actor >
+>>> run <server IP> <server port> <num of actor >
 
 
 
-running result
+## running result
 
 I give the running result with the gator_id=”scy0208” and zero number equals to 4
 
@@ -51,7 +51,7 @@ The performance of multi-actor performance and mining efficiency
 
 Experiment of one client node execute the program to find bitcoin with 4 zero, Actor system duration time is 30s. The command is: 
 
- time sbt “run <server IP> <server port> <num of actor > <sec of duration>”
+>>> time sbt “run <server IP> <server port> <num of actor > <sec of duration>”
 
 The client is a 2 core 4 thread CPU with the frequency of 2.53GHz, operating system is Ubunto 14.04, Memory size is 5863MB.
 
@@ -73,11 +73,12 @@ num of actor	real time	user time	sys time	num of bitcoin	Bitcoins/real time	CPU 
 
 From the experiment data we can see that when the actor number is 5, the system satisfied with highest speed of bitcoin mining, when the actor number is 12, the CPU utilize rate is highest, which means the parallel performance is the best.
 
-The Bitcoin with most zero
+##The Bitcoin with most zero
 The bitcoin with most zero is:
 Receive Bitcoin: 0000000077f8b74b194d2c75f11f993da5d6b3c10c6283fad3c21bdba401539c  With code: scy0208akka.actor.ActorCell@46b9375blwfEZLPGCa2rBavI
 
 With 8 zero.
-The highest number of machines running simultaneously
+
+##The highest number of machines running simultaneously
 
 I did the experiment with 6 machines in LAN runing simultaniously, it performance good.
