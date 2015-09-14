@@ -52,7 +52,7 @@ Receive Bitcoin: 0000cfdbcc761d8d0690f5da5a07e7f3cf43b6f5e16e590b2fa23b185b7da6c
 
 Experiment of one client node execute the program to find bitcoin with 4 zero, Actor system duration time is 30s. The command is: 
 
->>> time sbt “run <server IP> <server port> <num of actor > <sec of duration>”
+      time sbt “run <server IP> <server port> <num of actor > <sec of duration>”
 
 The client is a 2 core 4 thread CPU with the frequency of 2.53GHz, operating system is Ubunto 14.04, Memory size is 5863MB.
 
