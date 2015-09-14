@@ -6,7 +6,7 @@ How to run
 
 The bitcoin mining system consists of two part: the server part and the client part. On the server machine, we can open the folder of Server and typing in Terminal :
 
->> sbt “run  <gator_id > <number of zero>”
+ sbt “run  <gator_id > <number of zero>”
 
 Then we can get the information of server, especially the ip address of server which we need to use on client machine.
 
@@ -15,11 +15,11 @@ In this example we can see that the IP address of server is 192.168.0.101
 On the client machine, we can open the folder of Client and typing in Terminal :
 If we need the client to execute in a certain duration time : 
 
->> run <server IP> <server port> <num of actor > <sec of duration>
+ run <server IP> <server port> <num of actor > <sec of duration>
 
 If we need the client to execute without an end:
 
->> run <server IP> <server port> <num of actor >
+ run <server IP> <server port> <num of actor >
 
 
 
@@ -51,7 +51,7 @@ The performance of multi-actor performance and mining efficiency
 
 Experiment of one client node execute the program to find bitcoin with 4 zero, Actor system duration time is 30s. The command is: 
 
->> time sbt “run <server IP> <server port> <num of actor > <sec of duration>”
+ time sbt “run <server IP> <server port> <num of actor > <sec of duration>”
 
 The client is a 2 core 4 thread CPU with the frequency of 2.53GHz, operating system is Ubunto 14.04, Memory size is 5863MB.
 
