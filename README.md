@@ -1,4 +1,4 @@
-# Distributed_Bitcoin_Mining_System
+# Distributed Bitcoin Mining System
 
 ### Author: Chunyang Shen
 
@@ -51,7 +51,7 @@ Receive Bitcoin: 00003d51654736e088a199bb8a7818ee577fa512e774ea1980050d5dcfddb60
 Receive Bitcoin: 000029927d1f3d7b1b947a2eeec3480e274d4c7b81881e4a57cbb8510161c0ff  With code: scy0208akka.actor.ActorCell@5cdbd5cemEl8kdfdSt1DR48G
 Receive Bitcoin: 0000cfdbcc761d8d0690f5da5a07e7f3cf43b6f5e16e590b2fa23b185b7da6cb  With code: scy0208akka.actor.ActorCell@5cdbd5ceYsiJktnodDo8dZvW
 ```
-##The performance of multi-actor performance and mining efficiency
+##The multi-actor parallel performance and mining efficiency
 
 Experiment of one client node execute the program to find bitcoin with 4 zero, Actor system duration time is 30s. The command is: 
 
