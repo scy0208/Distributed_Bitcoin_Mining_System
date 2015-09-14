@@ -1,4 +1,7 @@
 # Distributed_Bitcoin_Mining_System
+
+### Author: Chunyang Shen
+
 This is an distributed Bitcoin mining system based on Akka
 
 
