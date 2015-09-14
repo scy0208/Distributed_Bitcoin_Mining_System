@@ -78,9 +78,13 @@ From the experiment data we can see that when the actor number is 5, the system 
 ##The Bitcoin with most zero
 The bitcoin with most zero is:
 Receive Bitcoin: 
-```0000000077f8b74b194d2c75f11f993da5d6b3c10c6283fad3c21bdba401539c ```
+```
+0000000077f8b74b194d2c75f11f993da5d6b3c10c6283fad3c21bdba401539c 
+```
 With code: 
-```scy0208akka.actor.ActorCell@46b9375blwfEZLPGCa2rBavI```
+```
+scy0208akka.actor.ActorCell@46b9375blwfEZLPGCa2rBavI
+```
 
 With 8 zero.
 
