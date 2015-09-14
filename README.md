@@ -29,6 +29,7 @@ I give the running result with the gator_id=”scy0208” and zero number equals
 
 
 Here is some of the result:
+```
 Receive Bitcoin: 0000c3f171d6a41d47487ba631c507991cf53790da07971546742f7474266630  With code: scy0208akka.actor.ActorCell@792b6c19HBuL9OYAOT7nqsL9
 Receive Bitcoin: 00001539166c9bbe9f67f520dcc97d9074a303534a49014771ebb61357ccce66  With code: scy0208akka.actor.ActorCell@19d9f3f3nD8S1mH4R8ODMhwF
 Receive Bitcoin: 00009cf4d0730e6ef31d8365b08b48dbb0dd66dd357affc2e2b76157dedbee54  With code: scy0208akka.actor.ActorCell@6bea2475X5dqCy1pd3wM6Fcg
@@ -47,7 +48,7 @@ Receive Bitcoin: 00003d51654736e088a199bb8a7818ee577fa512e774ea1980050d5dcfddb60
 Receive Bitcoin: 000029927d1f3d7b1b947a2eeec3480e274d4c7b81881e4a57cbb8510161c0ff  With code: scy0208akka.actor.ActorCell@5cdbd5cemEl8kdfdSt1DR48G
 Receive Bitcoin: 0000cfdbcc761d8d0690f5da5a07e7f3cf43b6f5e16e590b2fa23b185b7da6cb  With code: scy0208akka.actor.ActorCell@5cdbd5ceYsiJktnodDo8dZvW
 The performance of multi-actor performance and mining efficiency
-
+```
 Experiment of one client node execute the program to find bitcoin with 4 zero, Actor system duration time is 30s. The command is: 
 
 >>> time sbt “run <server IP> <server port> <num of actor > <sec of duration>”
@@ -76,7 +77,10 @@ From the experiment data we can see that when the actor number is 5, the system 
 
 ##The Bitcoin with most zero
 The bitcoin with most zero is:
-Receive Bitcoin: 0000000077f8b74b194d2c75f11f993da5d6b3c10c6283fad3c21bdba401539c  With code: scy0208akka.actor.ActorCell@46b9375blwfEZLPGCa2rBavI
+Receive Bitcoin: 
+```0000000077f8b74b194d2c75f11f993da5d6b3c10c6283fad3c21bdba401539c ```
+With code: 
+```scy0208akka.actor.ActorCell@46b9375blwfEZLPGCa2rBavI```
 
 With 8 zero.
 
